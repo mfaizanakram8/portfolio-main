@@ -1,5 +1,5 @@
 import { FaLocationArrow } from "react-icons/fa6";
-
+import Link from "next/link";
 import MagicButton from "./MagicButton";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
@@ -56,13 +56,13 @@ const Hero = () => {
             Hi! I&apos;m Muhammad Noman Akram, a Mechanical Design Engineer based in Pakistan.
           </p>
 
-          <a href="#about">
+          <Link href="#about">
             <MagicButton
               title="Show my work"
               icon={<FaLocationArrow />}
               position="right"
             />
-          </a>
+          </Link>
         </div>
       </div>
     </div>
