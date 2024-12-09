@@ -96,7 +96,6 @@ const DotMatrix: React.FC<DotMatrixProps> = ({
     };
   }, [colors, opacities, totalSize, dotSize]);
 
-
   const uniforms = useMemo(() => getUniforms(), [getUniforms]);
 
   return (

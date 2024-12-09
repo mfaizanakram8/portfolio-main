@@ -29,7 +29,7 @@ const RecentProjects = () => {
                     alt="bgimg"
                     width={500} // Set a width for the image
                     height={500} // Set a height for the image
-                    objectFit="cover" // Optional: Adjusts the image fitting
+              
                   />
                 </div>
                 {/* Apply width and height to the main project image */}
@@ -39,7 +39,7 @@ const RecentProjects = () => {
                   className="z-10 absolute bottom-0"
                   width={320} // Set width for the image
                   height={180} // Set height for the image
-                  objectFit="cover" // Optional: Adjusts the image fitting
+            
                 />
               </div>
 
